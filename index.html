@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIONEGA BASIC EHR DEMO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DIONEGA BASIC EHR DEMO</h1>
+        <p id="datetime"></p>
+    </header>
+    
+    <section id="login">
+        <h2>Admin Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    
+    <section id="welcome" class="hidden">
+        <h2>WELCOME TO DIONEGA ELECTRONIC HEALTH RECORDS DEMO!</h2>
+        <p class="motto"><em>Touching lives, with modern technology</em></p>
+        <nav>
+            <ul>
+                <li><a href="patient.html">Encode Patient Info</a></li>
+                <li><a href="view.html">View Patients</a></li>
+                <li><a href="admin.html" id="adminPanelLink" class="hidden">Admin Panel</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <footer>
+        <p>ALL RIGHTS RESERVED 2025 | GROUP 2 DIONEGA - NURSING INFORMATICS</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
